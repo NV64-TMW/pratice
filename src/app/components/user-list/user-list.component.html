@@ -1,0 +1,14 @@
+<mat-card *ngIf="userList" class="card">
+    <mat-card-title>Users list</mat-card-title>
+    <mat-card-content>
+        <mat-form-field class="full-width" appearance="outline">
+            <input matInput value={{userList.name}} />
+        </mat-form-field>
+        <mat-form-field class="full-width" appearance="outline">
+            <input matInput value={{userList.email}} />
+        </mat-form-field>
+        <mat-form-field class="full-width" appearance="outline">
+            <input matInput value={{userList.phone}} />
+        </mat-form-field>
+    </mat-card-content>
+</mat-card>
